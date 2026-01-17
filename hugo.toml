@@ -1,0 +1,58 @@
+baseURL = "https://blog.scriptspace.dev/"
+languagecode = "en"
+defaultcontentlanguage = "en"
+title = "DevDust Blog"
+theme = "hugo-coder"
+
+[pagination]
+pagerSize = 20
+
+[markup]
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  author = "DevDust"
+  info = "Personal blog"
+  description = "DevDust's personal blog"
+  keywords = "blog,developer,personal"
+  since = 2026
+  enableTwemoji = true
+  dateFormat = "January 2, 2006"
+  colorScheme = "light"
+  hideColorSchemeToggle = false
+  maxSeeAlsoItems = 5
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/devdust80/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+
+[security]
+  enableInlineShortcodes = true
+
+# more content: https://github.com/luizdepra/hugo-coder/tree/main/exampleSite/content
+# https://github.com/luizdepra/hugo-coder/blob/main/exampleSite/hugo.toml
+# https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#complete-example
