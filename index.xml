@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevDust Blog</title><link>https://blog.scriptspace.dev/</link><description>Recent content on DevDust Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 17 Jan 2026 18:35:44 +0000</lastBuildDate><atom:link href="https://blog.scriptspace.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>hello-world</title><link>https://blog.scriptspace.dev/posts/hello-world/</link><pubDate>Sat, 17 Jan 2026 18:35:44 +0000</pubDate><guid>https://blog.scriptspace.dev/posts/hello-world/</guid><description>&lt;p&gt;Hello World!&lt;/p&gt;
+&lt;div class="mermaid"&gt;
+flowchart LR
+A --&gt; B
+
+&lt;/div&gt;</description></item><item><title>About</title><link>https://blog.scriptspace.dev/about/</link><pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate><guid>https://blog.scriptspace.dev/about/</guid><description>&lt;p&gt;This is devdust, lover of tech and in this blog I will be posting about the areas that I am interested in.&lt;/p&gt;</description></item></channel></rss>
