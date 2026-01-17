@@ -6,7 +6,6 @@ name: Deploy Hugo site
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:
 
 jobs:
   build:
@@ -14,12 +13,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - uses: peaceiris/actions-hugo@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          hugo-version: "latest"
 
       - name: Build
         run: hugo --minify
