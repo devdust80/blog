@@ -6,6 +6,9 @@ defaultcontentlanguage = "en"
 title = "DevDust Blog"
 theme = "hugo-coder"
 
+[permalinks]
+posts = "/posts/:slug/"
+
 [pagination]
 pagerSize = 20
 
