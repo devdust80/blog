@@ -1,4 +1,6 @@
-baseURL = "https://blog.scriptspace.dev/"
+baseURL = "https://devdust80.github.io/blog/"
+relativeURLs = false
+canonifyURLs = true
 languagecode = "en"
 defaultcontentlanguage = "en"
 title = "DevDust Blog"
