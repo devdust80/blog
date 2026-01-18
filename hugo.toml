@@ -3,7 +3,7 @@ relativeURLs = false
 canonifyURLs = true
 languagecode = "en"
 defaultcontentlanguage = "en"
-title = "DevDust Blog"
+title = "Dusty Dev"
 theme = "hugo-coder"
 
 [permalinks]
@@ -21,16 +21,18 @@ pagerSize = 20
   unsafe = true
 
 [params]
-  author = "DevDust"
-  info = "Personal blog"
-  description = "DevDust's personal blog"
+  author = "DevDust80"
+  info = "An engineer sharing thoughts and experiences."
+  description = "DevDust80's personal site for blogging about development and technology."
   keywords = "blog,developer,personal"
   since = 2026
   enableTwemoji = true
   dateFormat = "January 2, 2006"
-  colorScheme = "light"
+  colorScheme = "auto"
   hideColorSchemeToggle = false
   maxSeeAlsoItems = 5
+  favicon = "/favicon.svg"
+  customCSS = ["css/custom.css"]
 
 [taxonomies]
   category = "categories"
@@ -47,12 +49,16 @@ pagerSize = 20
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Ramblings"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Experiences"
   weight = 2
+  url = "experiences/"
+[[menu.main]]
+  name = "About"
+  weight = 3
   url = "about/"
 
 [security]
