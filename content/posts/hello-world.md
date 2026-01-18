@@ -1,18 +1,17 @@
 +++ 
 date = 2026-01-17T18:35:44Z
-title = "hello-world"
+title = "Hello world!"
 description = "hello-world"
 slug = "hello-world"
-authors = ["Devdust"]
+authors = ["Devdust80"]
 tags = ["test"]
-categories = ["test"]
+draft=true
+categories = ["ramblings"]
 externalLink = ""
 series = []
 +++
 
-Hello World!
+Hello world!
 
-{{<mermaid>}}
-flowchart LR
-A --> B
-{{</mermaid>}}
+<!-- {{<mermaid>}} -->
+<!-- {{</mermaid>}} -->

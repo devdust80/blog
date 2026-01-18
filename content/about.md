@@ -1,9 +1,17 @@
 +++
-title = "About"
+title = "About Me"
 description = "DevDust, constant learner!"
 date = "2026-01-17"
-aliases = ["about-me", "about-devdust", "contact"]
-author = "Devdust"
+aliases = ["about-me", "about-devdust", "about-nima"]
+author = "Devdust80"
 +++
 
-This is devdust, lover of tech and in this blog I will be posting about the areas that I am interested in.
+Seeker at heart.
+
+## I'm a
+
+- Child
+- Husband
+- Father
+- Network Engineer
+- Infrastructure Engineer
